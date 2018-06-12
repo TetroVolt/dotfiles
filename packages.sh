@@ -18,3 +18,8 @@ pacman -S zsh termite vim git gcc python2 python3
 # LaTeX
 pacman -S pandoc pdflatex biber
 
+# grub
+pacman -S grub
+#grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=grub
+grub-mkconfig -o /boot/grub/grub.cfg
+

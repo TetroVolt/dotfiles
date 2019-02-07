@@ -1,16 +1,16 @@
 
 [options]
-font = Roboto Mono for Powerline Regular 11
+#font = Roboto Mono for Powerline Regular 11
+font = Inconsolata for Powerline Regular 14
 
 # "block", "underline", "ibeam"
 #cursor_shape = ibeam
-
 
 [colors]
 # special
 foreground      = #c5c8c6
 foreground_bold = #c5c8c6
-cursor          = #c5c8c6
+#cursor          = #c5c8c6
 #background      = #1d1f21
 background      = rgba(27,28,30,1.0)
 

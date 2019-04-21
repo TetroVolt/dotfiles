@@ -17,7 +17,7 @@
 #ZSH_THEME="agnoster"
 #ZSH_THEME="gianu"
 #ZSH_THEME="sunrise"
-ZSH_THEME="murilasso"
+ZSH_THEME="murilasso_fork"
 #ZSH_THEME="philips"
 #ZSH_THEME="linuxonly"
 
@@ -102,22 +102,5 @@ source $ZSH/oh-my-zsh.sh
 alias vi=vim
 alias nf=neofetch
 alias batt=check_battery
-export VISUAL="vim"
-export PATH=$PATH':/home/raymond/.local/bin'
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH':/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/'
-
-#neofetch # too slow to add to zshrc
-
-### pywal stuff ###
-# Import colorscheme from 'wal' asynchronously
-# &   # Run the process in the background.
-# ( ) # Hide shell job control messages.
-(cat ~/.cache/wal/sequences &)
-
-# cat ~/.cache/wal/sequences
-
-# To add support for TTYs this line can be optionally added.
-# source ~/.cache/wal/colors-tty.sh
-### end pywal ###
-
+alias showconsolefonts='ls /usr/share/kbd/consolefonts/'
 

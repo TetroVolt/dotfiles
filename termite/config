@@ -1,7 +1,9 @@
 
 [options]
-#font = Roboto Mono for Powerline Regular 11
-font = Inconsolata for Powerline Regular 14
+font = Roboto Mono for Powerline Regular 11
+#font = Source Code Pro for Powerline Regular 11
+#font = Inconsolata for Powerline Regular 14
+#font = Hack Regular 11
 
 # "block", "underline", "ibeam"
 #cursor_shape = ibeam
